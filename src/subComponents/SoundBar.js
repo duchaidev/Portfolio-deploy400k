@@ -76,10 +76,10 @@ const SoundBar = () => {
     }
   };
 
-  useEffect(() => {
-    setClick(true);
-    if (ref.current) ref.current.play();
-  }, [ref]);
+  // useEffect(() => {
+  //   setClick(true);
+  //   if (ref.current) ref.current.play();
+  // }, [ref]);
 
   return (
     <Box onClick={() => handleClick()}>
